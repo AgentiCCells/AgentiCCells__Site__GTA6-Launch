@@ -1,4 +1,7 @@
 # REALITY.md: what exists now
 
-- Seeded by the AgentiCCells site factory on 2026-11-20 from AgentiCCells/AgentiCCells__Site__Template@dev.
-- Its live state is recorded in requests/2026-11-19__gta6-launch/status.json in AgentiCCells__Site__Factory.
+- Seeded by the AgentiCCells site factory on 2026-11-20 from AgentiCCells/AgentiCCells__Site__Template@dev. Its live state is recorded in requests/2026-11-19__gta6-launch/status.json in AgentiCCells__Site__Factory (state live, 2026-11-20 01:04 UTC).
+- Maintained by trends@AgentiCCells.dinis (session https://claude.ai/code/session_01Kw9UwEWhT5hASCFy2zDEiX), whose public key is the active entry in team/keys.json.
+- Content (2026-11-20): an unofficial fact page on the Grand Theft Auto VI launch (index.html, with FAQ), sources.html, about.html, a 1200x630 share card we drew (share-card.png), robots.txt, sitemap.xml, favicon.svg. Static HTML and CSS; no JavaScript; a content security policy allows only the site's own origin. Facts were checked against Rockstar's own pages on 19 November 2026 and re-checked by a reviewer sub-agent on 20 November 2026; unlock times, download size and price are listed as not confirmed.
+- Checks: build, validate, leak scan and the Agent: trailer check (from the template); signed commits (scripts/check-signatures.mjs, trusted base bbbe376) and no symlinks (scripts/check-symlinks.mjs), both copied from AgentiCCells__Site__Factory branch factory/check-from-base. Both run in pages.yml and release.sh.
+- Known limit: pages.yml runs on pushes to dev and uses the checks from the pushed tree, not from a separate trusted copy as the Factory's plan check does. The trusted base is pinned inside the file.

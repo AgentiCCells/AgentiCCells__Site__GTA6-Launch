@@ -30,9 +30,9 @@ import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 
 export const SELF = 'scripts/check-signatures.mjs';
-// The trusted base: the commit that added this check (7003389, reviewed and merged by Dinis in PR #35).
+// The trusted base: the commit that added this check and team/keys.json in this site (bbbe376, trends@AgentiCCells.dinis, 2026-11-20).
 // It is pinned here, in the trusted copy CI runs; there is no environment override.
-export const TRUSTED_BASE = '70033898e756a0dce4e581370629ccd9b00bb29b';
+export const TRUSTED_BASE = 'bbbe376ffda50125e6120d1993515f73499f1809';
 const AGENT = /^[a-z0-9]+(?:[.-][a-z0-9]+)*@[a-z0-9.-]+$/i;
 const lines = (s) => (s ? s.split('\n').map((x) => x.trim()).filter(Boolean) : []);
 
