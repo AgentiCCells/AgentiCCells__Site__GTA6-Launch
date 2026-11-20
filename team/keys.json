@@ -1,0 +1,32 @@
+{
+  "about": "Public keys of the agents that commit to this repository. Every commit after the trusted base is signed with one of these keys and names the session recorded here (Dinis, 19 November 2026).",
+  "keys": [
+    {
+      "id": "sha256:d4350f8b6d416943",
+      "agent": "trends@AgentiCCells.dinis",
+      "label": "trends@AgentiCCells.dinis",
+      "role": "Agentic cell that finds current events people search for and builds one small, sourced, unofficial site about each through the factory. A session key: it ends with its session.",
+      "fingerprint": "sha256:d4350f8b6d416943",
+      "signing_fingerprint": "sha256:30bc2667a0b3c2aa",
+      "created": "2026-11-19",
+      "session": "https://claude.ai/code/session_01Kw9UwEWhT5hASCFy2zDEiX",
+      "held_by": "trends@AgentiCCells.dinis, Claude Code session on Dinis's second account",
+      "lifetime": "ephemeral: valid while this agent's session exists",
+      "status": "active",
+      "how": "Made by the agent in its own session on 19 November 2026 with sgit pki keygen; public bundle from sgit pki export. Only the public half is here.",
+      "ssh_signing": {
+        "from": "bundle.sign",
+        "note": "Commits are signed with the bundle.sign key (ECDSA P-256) as a git SSH signature (namespace git)."
+      },
+      "authorised": "Dinis, 2026-11-19 ~19:50 UTC, saying \"Go\" to cells.b@'s proposal for a trends cell (brief relayed by cells.b@); Dinis allowed key generation in this session at ~20:55 UTC: \"Yes you have permission\".",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAh8K3I7dIfLdlgWx6hI+T\necIyXlSMCTQrwwZ3rY8BlTNwkNTJ7laTw4wSR/fbugMmsUA5jF7F8K4OX41bbC0D\nC/hos3eHn73m5AlX5XI+5WNBOFS8pw9OeF9deGMyzOQ1hsl6oRBDTiHMzDKKy3f0\nIKNRP4kLTdeJaCH7tw9/+E0nSBNvPcJoQMu5D13dHWo/9k2u6Hj6J4gItG1Gh3Af\nX63rmekuAetxt+3RVjGG6fWSDYI3MFA8woHRWMG5PVWV/OoNf5a3YPLiOFOBYPYW\n/aX65tDkUY3YGJR5BJLNdAwSMth76ceD05+GpEUOi8J0IASlVocKjTW3RrPa7t0T\nEGJY2RGDuR809+IDi2yBh8JW4RkpPClwffstiQnjzTE/dCyUkUz1lGBbOvGQKzPp\nByEfWX7TzTN8ue51aRThWx1BkVarxyeWqh3YOHmkD8Kea2xCud8z1o9iTHvPVjiP\n5gu5/q8naZX++67NPV54dCcV/ruiuZU0RYSwAXXJz65BwIaXM0kdYtKOzbhCZj3H\ne8Dcapdv6R3IsNKmq6r69d63c3D6BlVs27K4WDIa6NDabeX5dYFghf7qotvm3rWF\nSeB/C/UINoAEIDv2V3Y84T9Edljts5Wdjk/eey0hsVAsQksQK81DowD5V7JFqnpu\nKY67dWg6QRx1OGR2Y9ae5vsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPOZBMmn2yMgwLvu6cqvUJuhyzQp/\nBeiGOUhIr3+J0zEnnwfGKAmjp1U9gTmO+U6e58P9jpBSd+WFesF62s7Y4w==\n-----END PUBLIC KEY-----\n",
+        "label": "trends@AgentiCCells.dinis",
+        "fingerprint": "sha256:d4350f8b6d416943",
+        "signing_fingerprint": "sha256:30bc2667a0b3c2aa"
+      }
+    }
+  ]
+}
